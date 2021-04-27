@@ -1,0 +1,37 @@
+{
+    "name": "test_node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src\\index.js",
+    "scripts": {
+        "start": "nodemon --inspect src\\index.js",
+        "watch": "node-sass -w src/resources/scss/ --output src/public/css/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/longlc1308/test_node.git"
+    },
+    "keywords": [
+        "test",
+        "backend",
+        "nodejs",
+        "f8"
+    ],
+    "author": "longlc",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/longlc1308/test_node/issues"
+    },
+    "homepage": "https://github.com/longlc1308/test_node#readme",
+    "dependencies": {
+        "@types/express-handlebars": "^3.1.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.0"
+    },
+    "devDependencies": {
+        "@types/node-sass": "^4.11.1",
+        "node-sass": "^5.0.0",
+        "nodemon": "^2.0.7"
+    }
+}
